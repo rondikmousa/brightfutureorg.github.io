@@ -2,83 +2,145 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bright Future Organization</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-50 text-gray-800">
+<body class="bg-gradient-to-r from-blue-100 to-green-100 min-h-screen flex flex-col">
 
 <!-- Header -->
-<header class="bg-pink-200 text-center py-8 px-4">
-<img src="brightfuture-logo.jpg" alt="Bright Future Logo" class="mx-auto w-32 mb-4">
-<h1 class="text-3xl font-bold text-pink-800">Bright Future Organization</h1>
-<p class="text-lg mt-2">Empowering Women and Supporting Disabilities in Duhok, Iraq</p>
-<a href="https://www.paypal.com/donate" target="_blank" class="inline-block mt-4 bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700 transition">
-Donate
-</a>
+<header class="bg-white shadow-md py-6">
+<div class="container mx-auto px-6 flex justify-between items-center">
+<div class="flex items-center space-x-4">
+<img src="brightfuture-logo.jpg" class="h-24 w-auto" alt="Bright Future Logo">
+<span class="text-2xl sm:text-3xl font-bold text-teal-700">
+Bright Future Organization
+</span>
+</div>
+<nav>
+<ul class="flex space-x-6 text-teal-600 font-semibold">
+<li><a href="#programs" class="hover:text-teal-900">Programs</a></li>
+<li><a href="#about" class="hover:text-teal-900">About Us</a></li>
+<li><a href="#founder" class="hover:text-teal-900">Founder</a></li>
+<li><a href="#team" class="hover:text-teal-900">Team</a></li>
+<li><a href="#proposal" class="hover:text-teal-900">Proposal</a></li>
+<li><a href="#contact" class="hover:text-teal-900">Contact</a></li>
+</ul>
+</nav>
+</div>
 </header>
 
+<!-- Hero Section -->
+<section class="flex-grow container mx-auto px-6 py-16 text-center">
+<h2 class="text-5xl font-extrabold text-teal-800 mb-6 leading-tight">
+Empowering Women & Supporting Disabilities in Duhok, Iraq
+</h2>
+<p class="text-lg text-teal-700 max-w-xl mx-auto mb-8">
+Vocational training, psychosocial support, and advocacy for a brighter future.
+</p>
+<a href="https://www.paypal.com/donate" target="_blank" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-3 rounded-md shadow-lg transition">
+Donate
+</a>
+</section>
+
+<!-- Programs -->
+<section id="programs" class="bg-white py-12">
+<div class="container mx-auto px-6">
+<h3 class="text-3xl font-bold text-teal-700 mb-10 text-center">Our Programs</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-teal-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+<h4 class="text-xl font-semibold mb-4">Vocational Training for Women</h4>
+<p class="text-teal-800">Market-driven skills like tailoring, handicrafts, and phone repairs.</p>
+</div>
+<div class="bg-teal-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+<h4 class="text-xl font-semibold mb-4">Support for Mothers of Children with Disabilities</h4>
+<p class="text-teal-800">Psychosocial support and empowerment workshops to build confidence and resilience.</p>
+</div>
+<div class="bg-teal-50 p-6 rounded-lg shadow hover:shadow-lg transition">
+<h4 class="text-xl font-semibold mb-4">Advocacy for Inclusive Labor Rights</h4>
+<p class="text-teal-800">Awareness campaigns and policy work toward disability inclusion and gender equity.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="py-12 container mx-auto px-6 max-w-4xl text-center">
+<h3 class="text-3xl font-bold text-teal-700 mb-6">About Bright Future Organization</h3>
+<p class="text-teal-800 text-lg leading-relaxed mb-4">
+Bright Future is a women-led NGO based in Duhok dedicated to empowering women and families of individuals with disabilities. We offer vocational training, promote mental health, and raise awareness about human rights. Our mission is to build an inclusive community where every person, regardless of ability or gender, can thrive with dignity and opportunity.
+</p>
+<p class="text-teal-800 text-lg leading-relaxed">
+Our long-term vision is to build a safe, inclusive, and empowering space for people with autism and disabilities and their mothers. We are also committed to supporting women in need through sustainable development programs. Whether through psychological support, skill-building, or advocacy, we aim to provide long-lasting change in the lives of marginalized individuals and their families.
+</p>
+</section>
+
 <!-- Founder -->
-<section class="max-w-4xl mx-auto py-10 px-6">
-<h2 class="text-2xl font-semibold text-pink-700 mb-4">About the Founder</h2>
-<p>Shaima Hussein Mustafa, a psychologist and a mother to a child with autism, founded Bright Future Organization with the aim to uplift women and families with disabilities in Duhok. Her personal journey drives the mission to create safe spaces, offer empowerment, and build opportunities for those often left behind.</p>
-</section>
-
-<!-- Mission -->
-<section class="bg-white max-w-4xl mx-auto py-10 px-6 shadow-sm rounded">
-<h2 class="text-2xl font-semibold text-pink-700 mb-4">Our Mission</h2>
-<p>We aim to empower women and individuals with disabilities by providing them the tools and support needed to live dignified, independent lives. Through vocational training, psychosocial support, and human rights awareness, we are committed to a future of inclusion and opportunity.</p>
-
-<h3 class="text-lg font-semibold mt-6 mb-2 text-pink-600">Our Long-Term Goal</h3>
-<p>We strive to eliminate the barriers disabled individuals face, and to build a society where women are uplifted, self-reliant, and confident in their abilities.</p>
-</section>
-
-<!-- Project -->
-<section class="max-w-4xl mx-auto py-10 px-6">
-<h2 class="text-2xl font-semibold text-pink-700 mb-4">Our Project: Empowering Women in Duhok</h2>
-<p class="mb-2"><strong>Status:</strong> Proposal Submitted (Awaiting Approval)</p>
-<p class="mb-4">This 6-month project aims to support 60 vulnerable women—especially those with disabilities and mothers of disabled children—through hands-on skills training, psychological support, and self-advocacy workshops.</p>
-
-<ul class="list-disc ml-6 text-gray-700 space-y-2">
-<li>Vocational training (tailoring, handicrafts, food production, phone repair)</li>
-<li>Workshops on human rights and women's empowerment</li>
-<li>Psychosocial support groups and therapy sessions</li>
-<li>Final exhibition showcasing participants' products</li>
-</ul>
-
-<p class="mt-4">The project is expected to directly benefit over 60 women and indirectly impact over 700 individuals within their families and communities.</p>
+<section id="founder" class="bg-white py-12">
+<div class="container mx-auto px-6 max-w-4xl text-center">
+<h3 class="text-3xl font-bold text-teal-700 mb-6">Meet Our Founder</h3>
+<p class="text-teal-800 text-lg leading-relaxed">
+<strong>Shaima Hussein Mustafa</strong> is a psychologist, activist, and mother to a child with autism. She founded Bright Future Organization to fight for the rights of women and people with disabilities, and to fill the gap in services and empowerment programs within Duhok. Her work is driven by both professional expertise and lived experience.
+</p>
+</div>
 </section>
 
 <!-- Team -->
-<section class="bg-pink-100 max-w-4xl mx-auto py-10 px-6 rounded shadow-sm">
-<h2 class="text-2xl font-semibold text-pink-700 mb-6">Meet the Team</h2>
-
-<div class="mb-6">
-<h3 class="text-lg font-semibold text-pink-800">Shaima Hussein Mustafa</h3>
-<p>Founder & Executive Director | Psychology Graduate</p>
+<section id="team" class="py-12 bg-teal-50">
+<div class="container mx-auto px-6 max-w-4xl text-center">
+<h3 class="text-3xl font-bold text-teal-700 mb-6">Our Team</h3>
+<div class="space-y-6 text-teal-800 text-lg leading-relaxed">
+<p>
+<strong>Shaima Hussein Mustafa</strong> – Founder of Bright Future, psychologist, activist, and a mother to a child with autism. Shaima brings both professional expertise and lived experience to the organization, driven by a powerful vision for change.
+</p>
+<p>
+<strong>Rondik Mousa Ismael</strong> – Volunteer team member and licensed dentist. Rondik is a passionate feminist and empathetic leader who has long dreamed of helping others. She also volunteered with UNHCR as a Shelter Assistant (Oct 2021 – April 2022), helping displaced people in Duhok by monitoring project implementation and compliance.
+</p>
+<p>
+<strong>Narmin Hussein Mustafa</strong> – Volunteer team member with a degree in Computer Science. Narmin is deeply committed to humanitarian work and has previous experience working with NGOs to support vulnerable communities.
+</p>
 </div>
-
-<div class="mb-6">
-<h3 class="text-lg font-semibold text-pink-800">Rondik Mousa Ismael</h3>
-<p>Volunteer | Dentist | Feminist and Human Rights Advocate</p>
-<p>Former UNHCR Shelter Assistant (2022) – supporting displaced people through technical assistance</p>
-</div>
-
-<div>
-<h3 class="text-lg font-semibold text-pink-800">Narmin Hussein Mustafa</h3>
-<p>Volunteer | Computer Science Graduate | Experienced in NGO work</p>
 </div>
 </section>
 
-<!-- Gallery Placeholder -->
-<section class="max-w-4xl mx-auto py-10 px-6 text-center">
-<h2 class="text-2xl font-semibold text-pink-700 mb-4">Our Work in Action</h2>
-<p class="italic text-gray-600">Images coming soon — we will showcase real stories, training sessions, and community events that bring our mission to life.</p>
+<!-- Proposal Summary -->
+<section id="proposal" class="py-12 container mx-auto px-6 max-w-4xl text-center">
+<h3 class="text-3xl font-bold text-teal-700 mb-6">Project Proposal (Pending Approval)</h3>
+<p class="text-teal-800 text-lg leading-relaxed mb-6">
+We have submitted a proposal for a 6-month empowerment project supporting 60 women — including women with disabilities and mothers of children with disabilities. The project includes:
+</p>
+<ul class="text-teal-800 text-left list-disc list-inside space-y-2">
+<li>Vocational training in tailoring, food production, handicrafts, and mobile phone repair</li>
+<li>Psychological support and awareness sessions</li>
+<li>Workshops on gender equality and human rights</li>
+<li>A final exhibition to showcase the participants’ work</li>
+</ul>
+<p class="mt-6 text-teal-800">
+This initiative is expected to directly support over 60 women and indirectly benefit over 700 individuals across Duhok.
+</p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-white py-12">
+<div class="container mx-auto px-6 max-w-md">
+<h3 class="text-3xl font-bold text-teal-700 mb-6 text-center">Contact Us</h3>
+<form class="space-y-6">
+<input type="text" placeholder="Your Name" required class="w-full p-3 border border-teal-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600" />
+<input type="email" placeholder="Your Email" required class="w-full p-3 border border-teal-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600" />
+<textarea placeholder="Message" rows="4" required class="w-full p-3 border border-teal-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"></textarea>
+<button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 rounded-md transition shadow-lg">
+Send Message
+</button>
+</form>
+<p class="text-center text-teal-700 mt-6">
+📧 briightfuturee2025@gmail.com | 📞 07504783849
+</p>
+</div>
 </section>
 
 <!-- Footer -->
-<footer class="bg-pink-200 text-center py-6 mt-10 text-sm text-pink-800">
-&copy; 2025 Bright Future Organization • Email: briightfuturee2025@gmail.com
+<footer class="bg-teal-700 text-white py-6 text-center">
+&copy; 2025 Bright Future Organization. All rights reserved.
 </footer>
 
 </body>
